@@ -1,2 +1,2 @@
 #!/bin/sh
-echo i am composer
+docker run -ti --rm -v $(pwd):/app composer/composer $@
